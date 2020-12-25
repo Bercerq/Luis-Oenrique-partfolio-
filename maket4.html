@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="Owl Carousel 2/owl.carousel.min.css" />
+    <link rel="stylesheet" href="Owl Carousel 2/owl.theme.default.min.css" />
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/owl.carousel.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 maximum-scale=1.0 user-scalable=0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style-1.css">
+</head>
+
+
+<body>
+
+    <script>
+        $(document).ready(function () {
+            var owl = $('.owl-carousel');
+            owl.owlCarousel({
+
+                loop: false,
+                keyboard: false,
+                pause: 'hover',
+                ride: 'carousel',
+                autoplay: false,
+                interval: 1000,
+                nav: true,
+                pagination: false,
+
+
+                responsive: {
+
+
+                    0: {
+                        items: 1
+                    }
+
+                }
+            })
+        })
+    </script>
+
+
+
+    <script type="text/javascript">
+        $(function () {
+            $("#top").on('click', function () {
+                $("HTML, BODY").animate({
+                    scrollTop: 0
+                }, 1000);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#top1").on('click', function () {
+                $("HTML, BODY").animate({
+                    scrollTop: 800
+                }, 1000);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#top2").on('click', function () {
+                $("HTML, BODY").animate({
+                    scrollTop: 1400
+                }, 1000);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#top3").on('click', function () {
+                $("HTML, BODY").animate({
+                    scrollTop: 3100
+                }, 1000);
+            });
+        });
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#top4").on('click', function () {
+                $("HTML, BODY").animate({
+                    scrollTop: 6600
+                }, 1000);
+            });
+        });
+    </script>
+
+    <header>
+        <div class="logo">
+            <a name="home"> <img src="img/logo.png" alt="logo"></a>
+        </div>
+
+        <nav>
+            <div class="navigathion">
+                <ul>
+                    <div class="navbox">
+                        <li id="top"><a href="#home">Home</a></li>
+                    </div>
+                    <div class="navbox">
+                        <li id="top1"><a href="#about">ABOUT</a></li>
+                    </div>
+                    <div class="navbox">
+                        <li id="top2"><a href="#service">SERVICE</a></li>
+                    </div>
+                    <div class="navbox">
+                        <li id="top3"><a href="#partfolio">PARTFOLIO</a></li>
+                    </div>
+                    <div class="navbox">
+                        <li id="top4"><a href="#contact">CONTACT</a></li>
+                    </div>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hamburger">
+            <input id="menu__toggle" type="checkbox" />
+            <label class="menu__btn" for="menu__toggle">
+                <span></span>
+
+            </label>
+            <ul class="menu__box">
+
+                <div class="nav">
+                    <li><a class="menu__item"><a href="#"><span>Home</span></a></li>
+                    <li><a class="menu__item"><a href="#"><span>ABOUT</span></a></li>
+                    <li><a class="menu__item"><a href="#"><span>SERVICE</span></a></li>
+                    <li><a class="menu__item"><a href="#"><span>PARTFOLIO</span></a></li>
+                    <li><a class="menu__item"><a href="#"><span>CONTACT</span></a></li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="header">
+
+            <div class="left_content">
+                <h1>Luis Oenrique</h1>
+                <span>User Experience / User Interface Expert</span>
+
+                <form>
+                    <div class="submit_button">
+                        <input type="submit" name="submit" value="KNOW MORE">
+                        <input type="submit" name="submit" value="HERE ME">
+                    </div>
+
+                </form>
+
+            </div>
+
+            <div class="headerman">
+                <img src="img/headerman.png" alt="Bigimg">
+            </div>
+
+
+        </div>
+
+    </header>
+
+    <section class="first_content">
+
+        <div class="left_content2">
+
+            <h1><a name="about"><b>KNOW MORE<br>
+                        ABOUT ME</b></a>
+            </h1>
+            <span>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean
+                massa.
+                Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam
+                felis,
+                ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+            </span>
+
+
+
+            <form>
+                <div class="submit_button">
+                    <input type="submit" name="submit" value="DOWNLOAD MY CV" style=" width: 32%;">
+                </div>
+            </form>
+
+        </div>
+
+        <div class="bigman">
+            <img src="img/bigman2.png" alt="bigman">
+        </div>
+
+    </section>
+
+    <section class="services">
+        <h1> <a name="service">SERVICES</a></h1>
+        <div class="container_services">
+
+
+            <div class="box_services"><img src="img/services1.png" alt="services">
+                <div class="span_text"><span><b>User Research</b></span></div>
+            </div>
+
+            <div class="box_services"><img src="img/services2.png" alt="services">
+                <div class="span_text"> <span><b>IA And Wireframes</b></span></div>
+            </div>
+
+            <div class="box_services"><img src="img/services3.png" alt="services">
+                <div class="span_text"> <span><b>User Testing</b></span></div>
+            </div>
+
+            <div class="box_services"><img src="img/services4.png" alt="services">
+                <div class="span_text"> <span><b>Looks and Feel<br> Design (UI)</b></span></div>
+            </div>
+
+            <div class="box_services"><img src="img/services5.png" alt="services">
+                <div class="span_text"> <span><b>Delivery</b></span></div>
+            </div>
+
+            <div class="box_services"><img src="img/services6.png" alt="services">
+                <div class="span_text"> <span><b>Integration Support</b></span></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="My_skills">
+        <h1>My skills</h1>
+        <img src="img/skillboard.png" alt="skillboard">
+    </section>
+
+    <setion class="portfolio">
+
+        <div class="ovlc1">
+            <div class="owl-carousel owl-loaded">
+
+                <div class="carousel_box">
+                    <div class="box_services"><img src="img/services1.png" alt="services">
+                        <div class="span_text"><span><b>User Research</b></span></div>
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_services"><img src="img/services2.png" alt="services">
+                        <div class="span_text"> <span><b>IA And Wireframes</b></span></div>
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_services"><img src="img/services3.png" alt="services">
+                        <div class="span_text"> <span><b>User Testing</b></span></div>
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_services"><img src="img/services4.png" alt="services">
+                        <div class="span_text"> <span><b>Looks and Feel<br> Design (UI)</b></span></div>
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_services"><img src="img/services5.png" alt="services">
+                        <div class="span_text"> <span><b>Delivery</b></span></div>
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_services"><img src="img/services6.png" alt="services">
+                        <div class="span_text"> <span><b>Integration Support</b></span></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="ovlc2">
+            <div class="owl-carousel owl-loaded">
+
+
+
+
+
+                <div class="carousel_box">
+                    <div class="box_portfolio"><img src="img/portfolio1.png" alt="portfolio">
+
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_portfolio"><img src="img/portfolio2.png" alt="portfolio">
+
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_portfolio"><img src="img/portfolio3.png" alt="portfolio">
+
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_portfolio"><img src="img/portfolio4.png" alt="portfolio">
+
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_portfolio"><img src="img/portfolio5.png" alt="portfolio">
+
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="box_portfolio"><img src="img/portfolio6.png" alt="portfolio">
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <form>
+            <div class="submit_button" style="text-align: center;">
+                <input type="submit" name="submit" value="LOAD MORE">
+            </div>
+
+        </form>
+        </div>
+        <div class="content_container">
+            <h1> <a name="partfolio">PORTFOLIO</a> </h1>
+            <div class="portfolio_container">
+
+                <div class="box_portfolio"><img src="img/portfolio1.png" alt="portfolio">
+
+                </div>
+
+                <div class="box_portfolio"><img src="img/portfolio2.png" alt="portfolio">
+
+                </div>
+
+                <div class="box_portfolio"><img src="img/portfolio3.png" alt="portfolio">
+
+                </div>
+
+                <div class="box_portfolio"><img src="img/portfolio4.png" alt="portfolio">
+
+                </div>
+
+                <div class="box_portfolio"><img src="img/portfolio5.png" alt="portfolio">
+
+                </div>
+
+                <div class="box_portfolio"><img src="img/portfolio6.png" alt="portfolio">
+
+                </div>
+
+
+            </div>
+            <form>
+                <div class="submit_button">
+                    <input type="submit" name="submit" value="LOAD MORE">
+                </div>
+
+            </form>
+        </div>
+    </setion>
+
+    <section class="testimonials">
+        <h1>TESTIMONIALS</h1>
+
+        <div class="limara">
+
+            <div class="owl-carousel owl-loaded">
+
+                <div class="carousel_box">
+                    <div class="boxlimara">
+                        <h2>Limara tusi </h2>
+                        <span>CEO, RanDOM COMPANY </span>
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.
+                            Aenean
+                            massa.
+                            Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec
+                            quam
+                            felis,
+                            ultricies nec,</p>
+                    </div>
+
+                    <div class="imghuman">
+                        <img src="img/limara.png" alt="human">
+                    </div>
+                </div>
+
+                <div class="carousel_box">
+                    <div class="boxlimara">
+                        <h2>Shrek </h2>
+                        <span>CEO, RanDOM COMPANY </span>
+                        <p>Somebody once told me the world is gonna roll me
+                            I ain't the sharpest tool in the shed
+                            She was looking kind of dumb with her finger and her thumb
+                            In the shape of an "L" on her forehead
+                            Well, the years start coming and they don't stop coming
+                            Fed to the rules and I hit the ground running
+                        </p>
+                    </div>
+
+                    <div class="imghuman">
+                        <img src="img/shrek.png" alt="human" style="    width: 110%;
+                        margin-right: -190px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <sectiom class="hands_to_work">
+        <div class="smile">
+            <div class="box_smile"><img src="img/smile1.png" alt="HANDS TO WORK">
+
+                <div class="smile_text">
+                    <span><b>120</b></span><br>
+                    <span>HANDS TO WORK</span>
+                </div>
+
+            </div>
+
+            <div class="box_smile"><img src="img/smile2.png" alt="HAPPY CLIENT">
+
+                <div class="smile_text">
+                    <span><b>310</b></span><br>
+                    <span>HAPPY CLIENT </span>
+                </div>
+
+            </div>
+
+            <div class="box_smile"><img src="img/smile3.png" alt="FINISHED PROJECT">
+
+                <div class="smile_text">
+                    <span style="margin-left: -32px;"><b>510</b></span><br>
+                    <span style="    margin-left: -17px;">FINISHED PROJECT</span>
+                </div>
+            </div>
+
+
+            <div class="box_smile"><img src="img/smile4.png" alt="CUPS OF COFFE">
+
+                <div class="smile_text">
+                    <span><b>720</b></span><br>
+                    <span>CUPS OF COFFE</span>
+                </div>
+            </div>
+
+        </div>
+    </sectiom>
+
+    <footer>
+        <div class="headerfooter">
+            <h1><a name="contact">SAY HELLO!</a></h1>
+        </div>
+
+        <div class="input_form">
+            <form>
+                <div class="all_container_input">
+                    <div class="first_input">
+                        <input type="text" value="Name" name="name" class="inputname">
+                        <input type="email" value="Email" name="email" class="inputemail">
+                    </div>
+
+                    <div class="twice_input">
+                        <input type="text" value="Massage" name="massage" class="inputmassage">
+                    </div>
+                    <div class="submit_button">
+                        <input type="submit" value="Send >">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="underfooter">
+            <div class="social">
+                <a href="https://www.youtube.com/watch?v=sDT6ZGlasUE"> <img src="img/social1.png" alt="social"
+                        class="socialcs"> </a>
+
+                <a href="#"> <img src="img/social2.png" alt="social" class="socialcs"></a>
+
+                <a href="#"> <img src="img/social3.png" alt="social" class="socialcs"></a>
+
+                <a href="#"> <img src="img/social4.png" alt="social" class="socialcs"></a>
+
+                <a href="#"> <img src="img/social5.png" alt="social" class="socialcs"></a>
+
+                <a href="#"> <img src="img/social6.png" alt="social" class="socialcs"></a>
+            </div>
+
+            <p>2017. All Right Reserved</p>
+        </div>
+
+
+    </footer>
+
+
+</body>
+
+</html>
